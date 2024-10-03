@@ -3,20 +3,16 @@ import Discount from "../../Components/Home/Discount";
 import HomeCatergory from "../../Components/Home/HomeCatergory";
 import Silder from "../../Components/Home/Silder";
 import CardProductsContainer from "../../Components/Products/CardProductsContainer";
-import Footer from "../../Components/Uitily/Footer";
-import NavBarLogin from "../../Components/Uitily/NavBarLogin";
 
 const HomePage = () => {
   return (
     <div className="font" style={{ minHeight: "670px" }}>
-      <NavBarLogin />
       <Silder />
       <HomeCatergory />
       <CardProductsContainer title="Best seller" btntitle="More ..." />
       <Discount />
       <CardProductsContainer title="Best seller" btntitle="More ..." />
       <BrandFeatured title="Famous Brand" btntitle="All " />
-      <Footer />
     </div>
   );
 };
