@@ -6,10 +6,10 @@ import brand2 from "../../images/brand2.png";
 import brand3 from "../../images/brand3.png";
 import SubTitle from "../Uitily/SubTitle";
 
-const BrandFeatured = ({ title, btntitle }) => {
+const BrandFeatured = ({ title, btntitle, pathText }) => {
   return (
     <Container>
-      <SubTitle title={title} btntitle={btntitle} />
+      <SubTitle title={title} btntitle={btntitle} pathText="/allbrand" />
       <Row className="my-1 d-flex justify-content-between">
         <BrandCard img={brand1} />
         <BrandCard img={brand2} />

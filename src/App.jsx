@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginPage from "./Page/Auth/LoginPage";
 import RegisterPage from "./Page/Auth/RigesterPage";
 import AllCategoryPage from "./Page/Category/AllCategoryPage";
+import AllBrand from "./Page/Brand/AllBrandPage";
+import ShopProductsPage from "../src/Page/Products/ShopeProductsPage";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/allcategory" element={<AllCategoryPage />} />
+          <Route path="/allbrand" element={<AllBrand />} />
+          <Route path="/products" element={<ShopProductsPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

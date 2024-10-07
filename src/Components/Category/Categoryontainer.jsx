@@ -23,6 +23,12 @@ const CategoryContainer = () => {
         <CategoryCard title="اجهزة منزلية" img={sale} background="#F4DBA4" />
         <CategoryCard title="اجهزة منزلية" img={clothe} background="#FF6262" />
         <CategoryCard title="اجهزة منزلية" img={pic} background="#F4DBA4" />
+        <CategoryCard title="اجهزة منزلية" img={pic} background="#F4DBA4" />
+        <CategoryCard title="اجهزة منزلية" img={clothe} background="#F4DBA4" />
+        <CategoryCard title="اجهزة منزلية" img={cat2} background="#F4DBA4" />
+        <CategoryCard title="اجهزة منزلية" img={labtop} background="#0034FF" />
+        <CategoryCard title="اجهزة منزلية" img={sale} background="#F4DBA4" />
+        <CategoryCard title="اجهزة منزلية" img={clothe} background="#FF6262 " />
       </Row>
     </Container>
   );

@@ -9,9 +9,17 @@ const HomePage = () => {
     <div className="font" style={{ minHeight: "670px" }}>
       <Silder />
       <HomeCatergory />
-      <CardProductsContainer title="Best seller" btntitle="More ..." />
+      <CardProductsContainer
+        title="Best seller"
+        btntitle="More ..."
+        pathText="/products"
+      />
       <Discount />
-      <CardProductsContainer title="Best seller" btntitle="More ..." />
+      <CardProductsContainer
+        title="Best seller"
+        btntitle="More ..."
+        pathText="/products"
+      />
       <BrandFeatured title="Famous Brand" btntitle="All " />
     </div>
   );
