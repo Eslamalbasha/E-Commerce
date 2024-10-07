@@ -7,6 +7,7 @@ import RegisterPage from "./Page/Auth/RigesterPage";
 import AllCategoryPage from "./Page/Category/AllCategoryPage";
 import AllBrand from "./Page/Brand/AllBrandPage";
 import ShopProductsPage from "../src/Page/Products/ShopeProductsPage";
+import ProductDetalisPage from "./Page/Products/ProductDetailsPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/allcategory" element={<AllCategoryPage />} />
           <Route path="/allbrand" element={<AllBrand />} />
           <Route path="/products" element={<ShopProductsPage />} />
+          <Route path="/products/:id" element={<ProductDetalisPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
